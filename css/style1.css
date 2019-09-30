@@ -1,0 +1,484 @@
+/*-------------------------------------------------
+	Style file contain theme components style
+-------------------------------------------------*/
+
+
+/* 
+.container
+{
+    width: 100%;
+    max-width: 100% !important;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+.container .dropdown-settings i.right
+{
+    margin-left: 0;
+} */
+
+/* @media only screen and (min-width: 601px)
+{
+    .container
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 993px)
+{
+    .container
+    {
+        width: 100%;
+    }
+   
+} */
+
+
+
+.bg-opacity-8
+{
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.height-100vh
+{
+    height: 100vh;
+}
+
+button,
+html [type='button'],
+[type='reset'],
+[type='submit']
+{
+    cursor: pointer;
+
+    -webkit-appearance: none;
+}
+
+/* Border Radius */
+.border-radius-1
+{
+    border-radius: 1px !important;
+}
+
+.border-radius-2
+{
+    border-radius: 2px !important;
+}
+
+.border-radius-3
+{
+    border-radius: 3px !important;
+}
+
+.border-radius-4
+{
+    border-radius: 4px !important;
+}
+
+.border-radius-5
+{
+    border-radius: 5px !important;
+}
+
+.border-radius-6
+{
+    border-radius: 6px !important;
+}
+
+.border-radius-7
+{
+    border-radius: 7px !important;
+}
+
+.border-radius-8
+{
+    border-radius: 8px !important;
+}
+
+.border-radius-9
+{
+    border-radius: 9px !important;
+}
+
+.border-radius-10
+{
+    border-radius: 10px !important;
+}
+
+.border-round
+{
+    border-radius: 150px !important;
+}
+
+/* opacity 0 */
+.opacity-0
+{
+    opacity: 0;
+}
+
+/* Border None & Shadow None */
+.border-none
+{
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+.box-shadow-none
+{
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+@media only screen and (min-width: 0)
+{
+    html
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 992px)
+{
+    html
+    {
+        font-size: 14.5px;
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+    html
+    {
+        font-size: 15px;
+    }
+}
+
+/*
+  Gradient color mixin
+*/
+
+
+
+.gradient-45deg-purple-deep-orange
+{
+      background: #8e24aa;
+      background: -webkit-linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+      background: -moz- oldlinear-gradient(45deg, #8e24aa, #ff6e40) !important;
+      background:      -o-linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+      background:         linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+}
+.gradient-45deg-purple-deep-orange.gradient-shadow
+{
+    -webkit-box-shadow: 0 6px 20px 0 rgba(255, 110, 64, .5) !important;
+            box-shadow: 0 6px 20px 0 rgba(255, 110, 64, .5) !important;
+}
+
+
+/*----------------------------------------
+	Avatar
+------------------------------------------*/
+
+/*----------------------------------------
+  Material
+------------------------------------------*/
+/* @font-face
+{
+    font-family: 'Material Icons';
+    font-weight: 400;
+    font-style: normal;
+
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url('https://pixinvent.com/materialize-material-design-admin-template/app-assets/fonts/material-design-icons/MaterialIcons-Regular.ttf') format('truetype'), url('https://pixinvent.com/materialize-material-design-admin-template/app-assets/fonts/material-design-icons/MaterialIcons-Regular.woff2') format('woff2'), url('https://pixinvent.com/materialize-material-design-admin-template/app-assets/fonts/material-design-icons/MaterialIcons-Regular.woff') format('woff'), url('https://pixinvent.com/materialize-material-design-admin-template/app-assets/fonts/material-design-icons/MaterialIcons-Regular.eot');
+} */
+
+/* .material-icons
+{
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+   
+    display: inline-block;
+
+    white-space: nowrap;
+    letter-spacing: normal;
+    text-transform: none;
+    word-wrap: normal;
+
+    direction: ltr;
+    
+    -webkit-font-smoothing: antialiased;
+   
+    text-rendering: optimizeLegibility;
+   
+    -moz-osx-font-smoothing: grayscale;
+    
+    -webkit-font-feature-settings: 'liga';
+       -moz-font-feature-settings: 'liga';
+            font-feature-settings: 'liga';
+} */
+
+/* Rules for sizing the icon. */
+.material-icons.md-18
+{
+    font-size: 18px;
+}
+
+.material-icons.md-24
+{
+    font-size: 24px;
+}
+
+.material-icons.md-36
+{
+    font-size: 36px;
+}
+
+.material-icons.md-48
+{
+    font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark
+{
+    color: rgba(0, 0, 0, .54);
+}
+
+.material-icons.md-dark.md-inactive
+{
+    color: rgba(0, 0, 0, .26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light
+{
+    color: white;
+}
+
+.material-icons.md-light.md-inactive
+{
+    color: rgba(255, 255, 255, .3);
+}
+
+
+
+
+
+
+
+/*----------------------------------------
+    Forms
+------------------------------------------*/
+/* .input-field div.error
+{
+    font-size: .8rem;
+
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+
+    -webkit-transform: translateY(0%);
+       -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+         -o-transform: translateY(0%);
+            transform: translateY(0%);
+
+    color: #ff4081;
+}
+
+.input-field label.active
+{
+    width: 100%;
+}
+
+.left-alert input[type=text] + label:after,
+.left-alert input[type=password] + label:after,
+.left-alert input[type=email] + label:after,
+.left-alert input[type=url] + label:after,
+.left-alert input[type=time] + label:after,
+.left-alert input[type=date] + label:after,
+.left-alert input[type=datetime-local] + label:after,
+.left-alert input[type=tel] + label:after,
+.left-alert input[type=number] + label:after,
+.left-alert input[type=search] + label:after,
+.left-alert textarea.materialize-textarea + label:after
+{
+    left: 0;
+}
+
+.right-alert input[type=text] + label:after,
+.right-alert input[type=password] + label:after,
+.right-alert input[type=email] + label:after,
+.right-alert input[type=url] + label:after,
+.right-alert input[type=time] + label:after,
+.right-alert input[type=date] + label:after,
+.right-alert input[type=datetime-local] + label:after,
+.right-alert input[type=tel] + label:after,
+.right-alert input[type=number] + label:after,
+.right-alert input[type=search] + label:after,
+.right-alert textarea.materialize-textarea + label:after
+{
+    right: 70px;
+}
+ */
+
+
+/*----------------------------------------
+Cards
+------------------------------------------*/
+.card
+{
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+}
+.card .card-title
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    margin: 0;
+}
+.card .activator
+{
+    cursor: pointer;
+}
+
+#card-stats .card-content
+{
+    text-align: center;
+}
+
+#card-stats .card-stats-title
+{
+    font-size: 1rem;
+}
+#card-stats .card-stats-title i
+{
+    font-size: 1.2rem;
+
+    position: relative;
+    top: 3px;
+}
+
+#card-stats .card-stats-compare
+{
+    font-size: .85rem;
+}
+#card-stats .card-stats-compare i
+{
+    position: relative;
+    top: 8px;
+}
+
+#card-stats .card-stats-number
+{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2rem;
+
+    margin: .8rem 0 .6rem 0;
+}
+
+#card-stats .card .card-content
+{
+    padding: 10px 14px;
+}
+
+#card-stats .card .card-action
+{
+    padding: 10px 14px;
+}
+
+.vertical-align-top
+{
+    vertical-align: top;
+}
+
+.card-animation-1,
+.image-n-margin
+{
+    margin-top: -50px;
+
+    -webkit-transition: .3s;
+    /* Safari */
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+}
+
+.card-animation-1:hover .image-n-margin
+{
+    margin-top: -80px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+}
+
+/* alert card */
+.card-alert .card-content
+{
+    padding: 10px 20px;
+}
+
+.card-alert i
+{
+    font-size: 20px;
+
+    position: relative;
+    top: 2px;
+}
+
+.card-alert .alert-circle
+{
+    position: relative;
+    top: -5px;
+    left: -2px;
+
+    display: inline-block;
+
+    width: 40px;
+
+    vertical-align: bottom;
+    white-space: nowrap;
+
+    border-radius: 1000px;
+}
+
+.card-alert .single-alert
+{
+    line-height: 42px;
+}
+
+.card-alert button
+{
+    font-size: 20px;
+
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+    color: #fff;
+    border: none;
+    background: none;
+}
+
+.card-alert .card .card-content
+{
+    padding: 20px 40px 20px 20px;
+}
+
+.card-alert .card-action i
+{
+    top: 0;
+
+    margin: 0;
+}
+
